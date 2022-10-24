@@ -9,14 +9,14 @@ public class StudentApp
         System.out.println("Please enter your name: ");
         Scanner input = new Scanner(System.in);
         String name = input.nextLine();
-        System.out.println("You entered: " + name);
+        System.out.println("You entered: " + name + "\n");
 
         System.out.println("Please enter your student email: ");
         String email = input.nextLine();
-        System.out.println("You entered: " + email);
+        System.out.println("You entered: " + email + "\n");
 
         System.out.println("Please enter your course name: ");
         String course = input.nextLine();
-        System.out.println("You entered: " + course);
+        System.out.println("You entered: " + course + "\n");
     }
 }
