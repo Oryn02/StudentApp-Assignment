@@ -19,4 +19,3 @@ public class StudentApp
         String course = input.nextLine();
         System.out.println("You entered: " + course + "\n");
     }
-}
