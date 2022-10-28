@@ -6,6 +6,17 @@ public class Student
     private String email;
     private String course;
 
+    public Student() {
+    }
+
+    //constructor created for the third instance of GetDetails
+    public Student(String name, String email, String course) {
+        this.name = name;
+        this.email = email;
+        this.course = course;
+    }
+
+    //getter and setters created for first and second instances of GetDetails
     public String getName() {
         return name;
     }
